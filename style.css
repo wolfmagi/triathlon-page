@@ -6,6 +6,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+/* Header/Nav and Footer */
 .logo{
     max-width: 50px;
 }
@@ -22,14 +23,16 @@ ul{
     display: flex;
     margin: 0;   
     padding: 0;
-    gap: 16px;
+    gap: 20px;
     align-items: center;
 }
 a{
     text-decoration-line: none;
     color: white;
 }
-
+button{
+    color: #3882f6;
+}
 .footer{
     background-color:#1f2937 ;
     color: white;
@@ -69,4 +72,77 @@ a{
     padding: 16px;
     display: flex;
     flex-direction: column;
+}
+/* second container */
+
+.second_Container h1{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container_two{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 25px;
+}
+.cards{
+    border: 5px solid blue;
+    border-radius: 10px;
+    padding: 50px;
+}
+/* third container */
+.third_Container{
+    background-color: #e5e7eb;
+}
+.container_three{
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+    margin: 50px;
+}
+.container_three em{
+    text-align: justify;
+}
+
+.container_three p{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+/* fourth container */
+.fourth_Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #f9faf8;
+
+}
+.container_four{
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 10px;
+    justify-content: center;
+    margin: 50px;
+    width: 500px;
+}
+.container_four p{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 15px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
 }
