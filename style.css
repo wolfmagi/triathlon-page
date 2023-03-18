@@ -126,23 +126,29 @@ button{
     color: #f9faf8;
 
 }
+/* TODO - Adjust container four for mobile screen (now flex) */
+
 .container_four{
     display: flex;
+    padding: 15px;
     background-color: #3882f6;
+    flex-wrap: wrap;
     border-radius: 10px;
     justify-content: center;
     margin: 50px;
-    width: 500px;
 }
 .container_four p{
     display: flex;
     margin: 0;
     padding: 0;
-    padding-bottom: 15px;
+}
+.text_four{
+    display: flex;
+    flex-direction: column;   
+    margin-right: 50px;
 }
 .button{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 50px;
 }
